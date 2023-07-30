@@ -1,6 +1,6 @@
-Для развертывания приложения:
+## Для развертывания приложения:
 
-### Склонировать [репозиторий](https://github.com/ParLelya/firebase-auth): https://github.com/ParLelya/firebase-auth
+### Склонировать репозиторий: https://github.com/ParLelya/firebase-auth
 ### `npm install`
 ### `npm start`
 ### Открыть [http://localhost:3000](http://localhost:3000) в браузере.
