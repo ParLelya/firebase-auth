@@ -1,9 +1,6 @@
-# Getting Started with Create React App
+Для развертывания приложения:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-### Склонировать репозиторий
+### Склонировать [репозиторий](https://github.com/ParLelya/firebase-auth)
 ### `npm install`
 ### `npm start`
-
-Открыть [http://localhost:3000](http://localhost:3000) в браузере.
+### Открыть [http://localhost:3000](http://localhost:3000) в браузере.
