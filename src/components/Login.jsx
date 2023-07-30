@@ -12,7 +12,7 @@ const Login = () => {
       await signInWithEmailAndPassword(auth, email, password);
       alert("Успешный вход!");
     } catch (error) {
-      alert("Ошибка входа:", error.message);
+      alert("Ошибка входа: " + error.message);
     }
   };
 

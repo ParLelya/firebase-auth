@@ -12,7 +12,7 @@ const Registration = () => {
       await createUserWithEmailAndPassword(auth, email, password);
       alert("Успешная регистрация!");
     } catch (error) {
-      alert("Ошибка регистрации:", error.message);
+      alert("Ошибка регистрации: " + error.message);
     }
   };
 
