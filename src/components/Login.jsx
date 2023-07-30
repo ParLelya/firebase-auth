@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase";
 
 const Login = () => {
@@ -8,10 +9,10 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      await auth.signInWithEmailAndPassword(email, password);
+      await signInWithEmailAndPassword(auth, email, password);
       alert("Успешный вход!");
     } catch (error) {
-      alert("Ошибка входа:", error);
+      alert("Ошибка входа:", error.message);
     }
   };
 
